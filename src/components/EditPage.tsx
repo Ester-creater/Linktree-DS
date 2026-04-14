@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { EditForm } from "./EditForm";
+import { Main } from "./Main";
 import { Preview } from "./Preview";
 
 interface Link {
@@ -29,7 +29,7 @@ export const EditPage = () => {
     return (
         <div>
             <div className="container mx-auto flex">
-                <EditForm
+                <Main
                     name={name} setName={setName}
                     github={github} setGithub={setGithub}
                     linkedin={linkedin} setLinkedin={setLinkedin}
@@ -37,8 +37,8 @@ export const EditPage = () => {
                     tiktok={tiktok} setTiktok={setTiktok}
                     facebook={facebook} setFacebook={setFacebook}
                     links={links}
-                    onAddLink={handleAddLink}
-                    onLinkChange={handleLinkChange}
+                    handleLinkChange={handleLinkChange}
+                    handleAddLink={handleAddLink}
                 />
                 <Preview
                     name={name}

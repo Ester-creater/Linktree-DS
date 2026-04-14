@@ -1,5 +1,5 @@
-import { SocialMediaLink } from "./SocialMediaLink";
-import { SiGithub, SiInstagram, SiTiktok, SiFacebook } from "react-icons/si";
+import { SiFacebook, SiGithub, SiInstagram, SiTiktok } from "react-icons/si";
+import { SocialMediaLink } from "./Header/SocialMediaLink";
 
 interface Link {
     name: string;
