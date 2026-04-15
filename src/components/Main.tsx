@@ -76,7 +76,7 @@ export const Main = (props: MainProps) => {
 
           <button 
             type="button"
-            className="bg-[#d4a373] rounded cursor-pointer uppercase px-4 py-2 hover:opacity-80 transition-opacity" 
+            className="grey rounded cursor-pointer uppercase px-4 py-2 hover:opacity-80 transition-opacity" 
             onClick={props.handleAddLink}
           >
             Adicionar Link

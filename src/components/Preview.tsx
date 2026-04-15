@@ -63,7 +63,6 @@ export const Preview = ({ name, github, linkedin, instagram, tiktok, facebook, l
                     )}
                 </ul>
 
-                {/* Links personalizados no preview */}
                 <ul className="mt-4 flex flex-col gap-2">
                     {links.map((link, index) => (
                         link.name !== "" && link.url !== "" && (
